@@ -1,4 +1,5 @@
 # qc_streamlit
+
 # Libraries
 import os
 import cv2
@@ -9,9 +10,12 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
+
 ################################
 #######   FUNCTIONS  ###########
 ################################
+
+
 # Function to extract image size
 def image_size(img_array_list):
     img_shape = []
